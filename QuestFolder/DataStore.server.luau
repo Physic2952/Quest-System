@@ -1,4 +1,4 @@
--- ServerScriptService/DataStoreHandler.lua
+
 local DataStoreService = game:GetService("DataStoreService")
 local Players = game:GetService("Players")
 local Balance = DataStoreService:GetDataStore("BalanceDataStore")
@@ -52,3 +52,4 @@ game:BindToClose(function()
         pcall(SavePlayerData, player)
     end
 end)
+
